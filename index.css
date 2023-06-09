@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    size: 100%;
+
+    background-color: #0D0D0D;
+}
+
+.container {
+    display: flex;
+    flex-direction:space-around;
+    justify-content: center;
+    align-items: center;
+    
+    width: 80vw;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+     
+    background-color: #435C73;
+    color: #EEEEEE;
+    text-align: center;
+    border-radius: 3%;
+    
+    border: 5px solid #6B9FBF;
+}
+
+.red {
+    /* border: 2px solid red; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.blue {
+    /* border: 2px solid red; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scorecard { 
+    display: flex;           /* Use Flexbox to align child items */
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    width: 15vw;
+    height: 15vw;
+    border-radius: 5%;
+    border: 1px solid silver;
+    background-color: black;
+    color: #F94F6D;
+    overflow: hidden;         /* Hide overflowing text */
+}
+
+#count-el, #count-el2 {
+    font-size: calc(15vw / 3);   /* Make font size proportional to .scorecard size */
+    text-align: center;
+    margin: 0;                   /* Reset margins */
+    word-break: break-all;       /* Allow words to break and wrap onto the next line */
+}
+
+
+.center-column {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5vh 5vw 15vh 5vw;
+    height: 15rem;
+    /* border: 2px solid red; */
+}
+
+.period, .timer {  
+    display: flex;           /* Use Flexbox to align child items */
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    width: 9vw;
+    height: 9vw;    /* Make the height equal to the width */
+    border-radius: 5%;
+    margin-bottom: 2vh;
+    background-color: black;
+    color: #F94F6D;
+}
+
+#timer, #period {
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+#new-fight-btn {
+    margin-top: 5vh;
+    padding: 0.5em;
+    border: 2px solid white;
+    border-radius: 5%;
+    
+    background-color: #D93A2B;
+    color: white;
+}
+
+.round-btns button{
+    margin-top: 7vh;
+    padding: 0.5em;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+
+.round-1 {
+    background-color: #F2A0AF;
+    color: #435C73;
+}
+
+.round-2 {
+    background-color: #090A0D;
+    color: #435C73;
+}
+
+.round-3 {
+    background-color: #EBEEF2;
+    color: #435C73;
+}
+
+
+

@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <script defer src="index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="red">
+                <h3>RED</h3>
+                <div class="scorecard">
+                    <p id="count-el">0</p>
+                </div>
+                <div class="round-btns">
+                    <button class="round-1" onclick="roundWinner('round1')">R1</button>
+                    <button class="round-2" onclick="roundWinner('round2')">R2</button>
+                    <button class="round-3" onclick="roundWinner('round3')">R3</button>                    
+                </div>
+            </div>
+            <div class="center-column">
+                <h4>Timer</h4> 
+                <div class="timer">
+                    <div> <span id="timer">05:00</span></div>
+                </div>
+                <h4>Period</h4>
+                <div class="period">
+                    <p id="period">1</p>
+                </div>
+                <button id="new-fight-btn" onclick="newFight()">New Fight</button>
+            </div>
+            <div class="blue">
+                <h3>BLUE</h3>
+                <div class="scorecard">
+                    <p id="count-el2">0</p>
+                </div>
+                <div class="round-btns">
+                    <button class="round-1" onclick="roundWinner2('round1')">R1</button>
+                    <button class="round-2" onclick="roundWinner2('round2')">R2</button>
+                    <button class="round-3" onclick="roundWinner2('round3')">R3</button>                    
+                </div>
+        </div>
+    </body>
+</html>
